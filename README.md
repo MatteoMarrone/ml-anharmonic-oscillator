@@ -138,3 +138,19 @@ $` E(\lambda) = \sum_{n=0}^\infty A_n \lambda^n `$
     - `SAVE_CHAIN_EVERY=1`. At how many epochs of the training process we choose to save the values of the Markov chain. Set to 1 (i.e. at every epoch) by default.
   - Physical model features:
     - `L=0.`. Value of the coupling $\lambda$ for the anharmonic oscillator.
+
+
+## Uninstall
+To remove the virtual environment created follow the steps below:
+1. Make sure your current environment is not `ml-osc`, or if it is, type:
+
+`conda deactivate`
+
+2. Remove the environment.
+
+`conda remove -n ml-osc --all
+
+3. Optional: Delete the folder on your computer.
+
+## Support 
+If you have any questions or issues, please contact at matteomarrone27@gmail.com
