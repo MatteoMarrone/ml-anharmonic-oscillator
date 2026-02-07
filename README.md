@@ -148,7 +148,7 @@ To remove the virtual environment created follow the steps below:
 
 2. Remove the environment.
 
-`conda remove -n ml-osc --all
+`conda remove -n ml-osc --all`
 
 3. Optional: Delete the folder on your computer.
 
