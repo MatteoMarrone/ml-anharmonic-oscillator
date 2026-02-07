@@ -34,7 +34,12 @@ n_samples = 1000
 sigma = 1
 skip_size = 5
 burn_in = 500
+
+save_chain = True
+#whether we want to save the values of the markov chain in a file or not.
+#Set to FALSE to save memory in case you do not want to study the chain values.
 SAVE_CHAIN_EVERY = 1 #we save in a file the mc chain values at every epoch
 
+
 #Physical model parameters:
-L = 0.1 #value of lambda, anharmonic oscillator
+L = 0. #value of lambda, anharmonic oscillator

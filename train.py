@@ -25,8 +25,6 @@ device = torch.device(dev)
 net = HarmonicNQS(W1, B, W2).to(device)
 #---------------------------
 
-save_chain = True
-#whether we want to save the values of the markov chain in a file or not
 if save_chain == False:
     print("-- save_chain = False | We will not save in a file the values of the Markov chain for this simulation.")
 
